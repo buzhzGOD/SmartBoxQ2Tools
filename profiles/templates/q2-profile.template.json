@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "profileId": "replace-after-diagnose",
+  "name": "Не применяйте до заполнения по диагностике",
+  "description": "Шаблон. Не содержит отключаемых пакетов и не предназначен для apply.",
+  "targetConstraints": {
+    "fingerprint": "COPY_FROM_DIAGNOSTIC",
+    "apiLevel": "COPY_FROM_DIAGNOSTIC",
+    "manufacturer": "COPY_FROM_DIAGNOSTIC",
+    "model": "COPY_FROM_DIAGNOSTIC"
+  },
+  "operation": "disable-user",
+  "userId": 0,
+  "packages": []
+}

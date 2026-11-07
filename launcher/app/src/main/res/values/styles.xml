@@ -1,0 +1,9 @@
+<resources>
+    <style name="Theme.SmartBoxQ2" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:fontFamily">sans</item>
+        <item name="android:windowActionModeOverlay">true</item>
+        <item name="android:colorAccent">@color/focus</item>
+        <item name="android:navigationBarColor">@color/background</item>
+        <item name="android:windowBackground">@color/background</item>
+    </style>
+</resources>

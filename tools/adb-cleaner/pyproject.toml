@@ -1,0 +1,16 @@
+[project]
+name = "smartbox-q2-adb-cleaner"
+version = "0.1.0"
+description = "Diagnostic-first, reversible ADB cleaner for Android TV boxes"
+requires-python = ">=3.12"
+dependencies = []
+
+[project.scripts]
+smartbox-q2 = "q2_cleaner.cli:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

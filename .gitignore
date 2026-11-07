@@ -1,0 +1,25 @@
+# Local SDK and build tooling
+.tooling/
+
+# Android build outputs
+.gradle/
+**/build/
+local.properties
+
+# Python tooling
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+
+# Local Q2 diagnostics, backups, and individual profiles
+device-data/*
+!device-data/.gitkeep
+profiles/user/*
+!profiles/user/.gitkeep
+
+# Editor and OS data
+.idea/
+.vscode/
+*.iml
+Thumbs.db

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Q2 Home</string>
+    <color name="background">#101316</color>
+    <color name="surface">#1B2127</color>
+    <color name="focus">#72D6FF</color>
+    <color name="text_primary">#F2F5F7</color>
+    <color name="text_secondary">#AAB7C4</color>
+</resources>
